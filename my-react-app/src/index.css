@@ -62,6 +62,7 @@
 }
 */
 
+/*
 .list-category {
     font-size: 2.5em;
     font-weight: bold;
@@ -84,4 +85,330 @@
 .list-items li:hover{
     color: hsl(0, 0%, 45%);
     cursor: pointer;
+}
+*/
+
+/*
+.count-display {
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10em;
+    margin-top: 0;
+    font-weight: bold;
+    position: relative;
+    padding: 10px 20px;
+}
+
+.btn-count {
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.counter-container {
+    text-align: center;
+}
+
+.btn-count:hover {
+    background-color: blue;
+}
+
+
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+*/
+
+/*
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.color-picker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 50px;
+    font-size: 3rem;
+}
+
+.color-display {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid hsl(0, 0%, 80%);
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: 0.25s ease;
+}
+
+.color-display p{
+    color: hsl(0, 0%, 20%);
+    font-size: 2rem;
+    text-align: center;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="color"] {
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid hsl(0, 0%, 80%);
+}
+*/
+
+/*
+#counter {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#decrement {
+   font-size: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+   padding: 10px 20px;
+   background-color: red;
+   color: white;
+   border: 1px solid;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+#reset {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#increment {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+*/
+
+/*
+To-Do-List styling
+
+body {
+    background-color: hsl(0, 0%, 10%);
+}
+
+.to-do-list {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+button {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+
+.add-button {
+    background-color: hsl(125, 47%, 54%);
+}
+
+.add-button:hover {
+    background-color: hsl(125, 47%, 44%);
+}
+
+.delete-button {
+    background-color: hsl(10, 90%, 50%);
+}
+
+.delete-button:hover {
+    background-color: hsl(10, 90%, 40%);
+}
+
+.move-button {
+    background-color: hsl(207, 90%, 64%);
+}
+
+.move-button:hover {
+    background-color: hsl(207, 90%, 64%);
+}
+
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid hsl(0, 0%, 80%, 0.5);
+    border-radius: 5px;
+    color: hsla(0, 0%, 0%, 0.5);
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: black;
+    margin-bottom: 10px;
+    border: 3px solid hsla(0, 0%, 0%, 0.5);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+}
+
+.delete-button, .move-button {
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+*/
+
+/*
+body {
+    background-image: url(assets/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
+    
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock-container{
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    padding: 10px 0;
+}
+
+.clock{
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 3px 3px 5px hsl(0, 0%, 0%, 0.75);
+}
+*/
+
+/*
+.box{
+    border: 3px solid;
+    padding: 25px;
+}
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.stopWatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: white;
+    padding: 30px;
+}
+
+.display {
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+
+.controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.start-button {
+    background-color: hsl(115, 100%, 40%);
+}
+
+.start-button:hover {
+    background-color: hsl(115, 100%, 35%);
+}
+
+.stop-button {
+    background-color: hsl(0, 100%, 40%);
+}
+
+.stop-button:hover {
+    background-color: hsl(10, 90%, 45%);
+}
+
+.reset-button {
+    background-color: hsl(205, 90%, 60%);
+}
+
+.reset-button:hover {
+    background-color: hsl(205, 90%, 65%);
 }

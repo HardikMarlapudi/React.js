@@ -1,10 +1,10 @@
 import React from 'react';
 
 function Footer() {
-    return (
-        <footer>
-            <p>&copy; {new Date().getFullYear()} Hardik Marlapudi. All Rights Reserved.</p>
-        </footer>
-    );
+
+    return(
+        <footer>&copy; 2025 Hardik Marlapudi. All Rights Reserved.</footer>
+    )
 }
+
 export default Footer;

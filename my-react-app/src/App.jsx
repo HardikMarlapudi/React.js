@@ -1,9 +1,9 @@
 import React from 'react';
-import List from './List.jsx';
+import StopWatch from './Stopwatch.jsx';
 import Footer from './Footer.jsx';
-import './Card.css';
 import './Footer.css';
 import './index.css';
+
 
 // HOW TO STYLE REACT COMPONENTS WITH CSS
 // --------------------------------------
@@ -45,7 +45,7 @@ function App() {
 }
 export default App;
 */
-
+/*
 function App() {
 
   const fruits = [{id: 1, name:"apple", calories: 95}, 
@@ -67,4 +67,29 @@ function App() {
     </>
   )
 }
+export default App;
+*/
+
+// React hook = Special function that allows functional components
+//              to use React features without writing class components (React v16.8)
+//              (useState, useEffect, useContext, useReducer, useCallback, and more)
+
+// useState() = A React hook that allows the creation of a stateful variable
+//              AND a setter function to update its value in the Virtual DOM.
+//              [name, setName]
+
+// useContext() = React hook that allows you to share values
+//                betweeen multiple levels of components
+//                without passing props through each level
+
+function App() {
+
+    return(
+      <>
+      <StopWatch />
+      <Footer />
+      </>
+    );
+}
+
 export default App;
