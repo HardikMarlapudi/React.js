@@ -1,22 +1,21 @@
 import React, {useState, useEffect, useRef} from 'react';
 function StopWatch() {
 
-    const [isRunning, setIsRunning] = useState(false);
+    const [isRunning, setIsRunning] = useState(new Date());
     const [elaspedTime, setElapsedTime] = useState(0);
-    const intervalIdRef = useRef(null);
     const startTimeRef = useRef(0);
+    const intervalIdRef = useRef(null);
 
     useEffect(() => {
-
-       if(isRunning) {
+        if(isRunning) {
             intervalIdRef.current = setInterval(() => {
                 setElapsedTime(Date.now() - startTimeRef.current);
             }, 10);
-       }
-        return () => {
+        }
+        return() => {
             clearInterval(intervalIdRef.current);
         }
-    }, [isRunning]);
+    })
 
     function start() {
         setIsRunning(true);
